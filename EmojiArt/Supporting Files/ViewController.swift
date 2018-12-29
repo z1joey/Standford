@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Standford
+//  EmojiArt
 //
 //  Created by Yi Zhang on 2018/12/30.
 //  Copyright © 2018 Yi Zhang. All rights reserved.

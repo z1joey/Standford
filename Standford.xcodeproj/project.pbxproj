@@ -7,25 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6512A90021D7ED50009E7AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512A8FF21D7ED50009E7AD1 /* AppDelegate.swift */; };
-		6512A90221D7ED50009E7AD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512A90121D7ED50009E7AD1 /* ViewController.swift */; };
-		6512A90521D7ED51009E7AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6512A90321D7ED51009E7AD1 /* Main.storyboard */; };
-		6512A90721D7ED52009E7AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6512A90621D7ED52009E7AD1 /* Assets.xcassets */; };
-		6512A90A21D7ED52009E7AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6512A90821D7ED52009E7AD1 /* LaunchScreen.storyboard */; };
+		6512A91821D7ED64009E7AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512A91721D7ED64009E7AD1 /* AppDelegate.swift */; };
+		6512A91F21D7ED65009E7AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6512A91E21D7ED65009E7AD1 /* Assets.xcassets */; };
+		6512A92221D7ED65009E7AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6512A92021D7ED65009E7AD1 /* LaunchScreen.storyboard */; };
+		6512A92D21D7EDEB009E7AD1 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512A92921D7EDEB009E7AD1 /* PlayingCardDeck.swift */; };
+		6512A92E21D7EDEB009E7AD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512A92A21D7EDEB009E7AD1 /* ViewController.swift */; };
+		6512A92F21D7EDEB009E7AD1 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512A92B21D7EDEB009E7AD1 /* PlayingCardView.swift */; };
+		6512A93021D7EDEB009E7AD1 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512A92C21D7EDEB009E7AD1 /* PlayingCard.swift */; };
+		6512A93221D7EE3F009E7AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6512A93121D7EE3F009E7AD1 /* Main.storyboard */; };
+		6512A95221D7F01C009E7AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512A95121D7F01C009E7AD1 /* AppDelegate.swift */; };
+		6512A95421D7F01C009E7AD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512A95321D7F01C009E7AD1 /* ViewController.swift */; };
+		6512A95921D7F01D009E7AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6512A95821D7F01D009E7AD1 /* Assets.xcassets */; };
+		6512A95C21D7F01D009E7AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6512A95A21D7F01D009E7AD1 /* LaunchScreen.storyboard */; };
+		6512A96521D7F05A009E7AD1 /* EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512A96321D7F05A009E7AD1 /* EmojiArtView.swift */; };
+		6512A96621D7F05A009E7AD1 /* EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512A96421D7F05A009E7AD1 /* EmojiArtViewController.swift */; };
+		6512A96821D7F08A009E7AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6512A96721D7F08A009E7AD1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6512A8FC21D7ED50009E7AD1 /* Standford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Standford.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6512A8FF21D7ED50009E7AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6512A90121D7ED50009E7AD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6512A90421D7ED51009E7AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6512A90621D7ED52009E7AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6512A90921D7ED52009E7AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6512A90B21D7ED52009E7AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6512A91521D7ED64009E7AD1 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6512A91721D7ED64009E7AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6512A91E21D7ED65009E7AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6512A92121D7ED65009E7AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6512A92321D7ED65009E7AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6512A92921D7EDEB009E7AD1 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		6512A92A21D7EDEB009E7AD1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6512A92B21D7EDEB009E7AD1 /* PlayingCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
+		6512A92C21D7EDEB009E7AD1 /* PlayingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		6512A93121D7EE3F009E7AD1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6512A94F21D7F01C009E7AD1 /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6512A95121D7F01C009E7AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6512A95321D7F01C009E7AD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6512A95821D7F01D009E7AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6512A95B21D7F01D009E7AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6512A95D21D7F01D009E7AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6512A96321D7F05A009E7AD1 /* EmojiArtView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArtView.swift; sourceTree = "<group>"; };
+		6512A96421D7F05A009E7AD1 /* EmojiArtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArtViewController.swift; sourceTree = "<group>"; };
+		6512A96721D7F08A009E7AD1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6512A8F921D7ED50009E7AD1 /* Frameworks */ = {
+		6512A91221D7ED64009E7AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6512A94C21D7F01C009E7AD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +67,8 @@
 		6512A8F321D7ED50009E7AD1 = {
 			isa = PBXGroup;
 			children = (
-				6512A8FE21D7ED50009E7AD1 /* Standford */,
+				6512A91621D7ED64009E7AD1 /* PlayingCard */,
+				6512A95021D7F01C009E7AD1 /* EmojiArt */,
 				6512A8FD21D7ED50009E7AD1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,42 +76,110 @@
 		6512A8FD21D7ED50009E7AD1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6512A8FC21D7ED50009E7AD1 /* Standford.app */,
+				6512A91521D7ED64009E7AD1 /* PlayingCard.app */,
+				6512A94F21D7F01C009E7AD1 /* EmojiArt.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6512A8FE21D7ED50009E7AD1 /* Standford */ = {
+		6512A91621D7ED64009E7AD1 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				6512A8FF21D7ED50009E7AD1 /* AppDelegate.swift */,
-				6512A90121D7ED50009E7AD1 /* ViewController.swift */,
-				6512A90321D7ED51009E7AD1 /* Main.storyboard */,
-				6512A90621D7ED52009E7AD1 /* Assets.xcassets */,
-				6512A90821D7ED52009E7AD1 /* LaunchScreen.storyboard */,
-				6512A90B21D7ED52009E7AD1 /* Info.plist */,
+				6512A92821D7EDB7009E7AD1 /* Classes */,
+				6512A92721D7ED7E009E7AD1 /* Supporting Files */,
 			);
-			path = Standford;
+			path = PlayingCard;
+			sourceTree = "<group>";
+		};
+		6512A92721D7ED7E009E7AD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6512A91721D7ED64009E7AD1 /* AppDelegate.swift */,
+				6512A93121D7EE3F009E7AD1 /* Main.storyboard */,
+				6512A91E21D7ED65009E7AD1 /* Assets.xcassets */,
+				6512A92021D7ED65009E7AD1 /* LaunchScreen.storyboard */,
+				6512A92321D7ED65009E7AD1 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6512A92821D7EDB7009E7AD1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6512A92C21D7EDEB009E7AD1 /* PlayingCard.swift */,
+				6512A92921D7EDEB009E7AD1 /* PlayingCardDeck.swift */,
+				6512A92B21D7EDEB009E7AD1 /* PlayingCardView.swift */,
+				6512A92A21D7EDEB009E7AD1 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6512A95021D7F01C009E7AD1 /* EmojiArt */ = {
+			isa = PBXGroup;
+			children = (
+				6512A96221D7F04F009E7AD1 /* Classes */,
+				6512A96121D7F027009E7AD1 /* Supporting Files */,
+			);
+			path = EmojiArt;
+			sourceTree = "<group>";
+		};
+		6512A96121D7F027009E7AD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6512A96721D7F08A009E7AD1 /* Main.storyboard */,
+				6512A95121D7F01C009E7AD1 /* AppDelegate.swift */,
+				6512A95321D7F01C009E7AD1 /* ViewController.swift */,
+				6512A95821D7F01D009E7AD1 /* Assets.xcassets */,
+				6512A95A21D7F01D009E7AD1 /* LaunchScreen.storyboard */,
+				6512A95D21D7F01D009E7AD1 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6512A96221D7F04F009E7AD1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6512A96321D7F05A009E7AD1 /* EmojiArtView.swift */,
+				6512A96421D7F05A009E7AD1 /* EmojiArtViewController.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6512A8FB21D7ED50009E7AD1 /* Standford */ = {
+		6512A91421D7ED64009E7AD1 /* PlayingCard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6512A90E21D7ED52009E7AD1 /* Build configuration list for PBXNativeTarget "Standford" */;
+			buildConfigurationList = 6512A92421D7ED65009E7AD1 /* Build configuration list for PBXNativeTarget "PlayingCard" */;
 			buildPhases = (
-				6512A8F821D7ED50009E7AD1 /* Sources */,
-				6512A8F921D7ED50009E7AD1 /* Frameworks */,
-				6512A8FA21D7ED50009E7AD1 /* Resources */,
+				6512A91121D7ED64009E7AD1 /* Sources */,
+				6512A91221D7ED64009E7AD1 /* Frameworks */,
+				6512A91321D7ED64009E7AD1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Standford;
-			productName = Standford;
-			productReference = 6512A8FC21D7ED50009E7AD1 /* Standford.app */;
+			name = PlayingCard;
+			productName = PlayingCard;
+			productReference = 6512A91521D7ED64009E7AD1 /* PlayingCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6512A94E21D7F01C009E7AD1 /* EmojiArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6512A95E21D7F01D009E7AD1 /* Build configuration list for PBXNativeTarget "EmojiArt" */;
+			buildPhases = (
+				6512A94B21D7F01C009E7AD1 /* Sources */,
+				6512A94C21D7F01C009E7AD1 /* Frameworks */,
+				6512A94D21D7F01C009E7AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmojiArt;
+			productName = EmojiArt;
+			productReference = 6512A94F21D7F01C009E7AD1 /* EmojiArt.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,7 +192,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Yi Zhang";
 				TargetAttributes = {
-					6512A8FB21D7ED50009E7AD1 = {
+					6512A91421D7ED64009E7AD1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6512A94E21D7F01C009E7AD1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -112,49 +213,74 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6512A8FB21D7ED50009E7AD1 /* Standford */,
+				6512A91421D7ED64009E7AD1 /* PlayingCard */,
+				6512A94E21D7F01C009E7AD1 /* EmojiArt */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6512A8FA21D7ED50009E7AD1 /* Resources */ = {
+		6512A91321D7ED64009E7AD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6512A90A21D7ED52009E7AD1 /* LaunchScreen.storyboard in Resources */,
-				6512A90721D7ED52009E7AD1 /* Assets.xcassets in Resources */,
-				6512A90521D7ED51009E7AD1 /* Main.storyboard in Resources */,
+				6512A93221D7EE3F009E7AD1 /* Main.storyboard in Resources */,
+				6512A92221D7ED65009E7AD1 /* LaunchScreen.storyboard in Resources */,
+				6512A91F21D7ED65009E7AD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6512A94D21D7F01C009E7AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6512A96821D7F08A009E7AD1 /* Main.storyboard in Resources */,
+				6512A95C21D7F01D009E7AD1 /* LaunchScreen.storyboard in Resources */,
+				6512A95921D7F01D009E7AD1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6512A8F821D7ED50009E7AD1 /* Sources */ = {
+		6512A91121D7ED64009E7AD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6512A90221D7ED50009E7AD1 /* ViewController.swift in Sources */,
-				6512A90021D7ED50009E7AD1 /* AppDelegate.swift in Sources */,
+				6512A93021D7EDEB009E7AD1 /* PlayingCard.swift in Sources */,
+				6512A92E21D7EDEB009E7AD1 /* ViewController.swift in Sources */,
+				6512A92F21D7EDEB009E7AD1 /* PlayingCardView.swift in Sources */,
+				6512A91821D7ED64009E7AD1 /* AppDelegate.swift in Sources */,
+				6512A92D21D7EDEB009E7AD1 /* PlayingCardDeck.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6512A94B21D7F01C009E7AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6512A95421D7F01C009E7AD1 /* ViewController.swift in Sources */,
+				6512A96621D7F05A009E7AD1 /* EmojiArtViewController.swift in Sources */,
+				6512A95221D7F01C009E7AD1 /* AppDelegate.swift in Sources */,
+				6512A96521D7F05A009E7AD1 /* EmojiArtView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6512A90321D7ED51009E7AD1 /* Main.storyboard */ = {
+		6512A92021D7ED65009E7AD1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6512A90421D7ED51009E7AD1 /* Base */,
+				6512A92121D7ED65009E7AD1 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		6512A90821D7ED52009E7AD1 /* LaunchScreen.storyboard */ = {
+		6512A95A21D7F01D009E7AD1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6512A90921D7ED52009E7AD1 /* Base */,
+				6512A95B21D7F01D009E7AD1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -278,36 +404,72 @@
 			};
 			name = Release;
 		};
-		6512A90F21D7ED52009E7AD1 /* Debug */ = {
+		6512A92521D7ED65009E7AD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y7626TS68;
-				INFOPLIST_FILE = Standford/Info.plist;
+				INFOPLIST_FILE = "PlayingCard/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Yi.Standford;
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.PlayingCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6512A91021D7ED52009E7AD1 /* Release */ = {
+		6512A92621D7ED65009E7AD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y7626TS68;
-				INFOPLIST_FILE = Standford/Info.plist;
+				INFOPLIST_FILE = "PlayingCard/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Yi.Standford;
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.PlayingCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6512A95F21D7F01D009E7AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = "EmojiArt/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.EmojiArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6512A96021D7F01D009E7AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = "EmojiArt/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.EmojiArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,11 +488,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6512A90E21D7ED52009E7AD1 /* Build configuration list for PBXNativeTarget "Standford" */ = {
+		6512A92421D7ED65009E7AD1 /* Build configuration list for PBXNativeTarget "PlayingCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6512A90F21D7ED52009E7AD1 /* Debug */,
-				6512A91021D7ED52009E7AD1 /* Release */,
+				6512A92521D7ED65009E7AD1 /* Debug */,
+				6512A92621D7ED65009E7AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6512A95E21D7F01D009E7AD1 /* Build configuration list for PBXNativeTarget "EmojiArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6512A95F21D7F01D009E7AD1 /* Debug */,
+				6512A96021D7F01D009E7AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
