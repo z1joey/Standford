@@ -1,3 +1,5 @@
 # Standford
 
-斯坦福iOS公开课(CS193P)里的项目
+Lecture5 _Drawing    -> PlayingCard
+
+Lecture11_Drag&Drop  -> EmojiArt
